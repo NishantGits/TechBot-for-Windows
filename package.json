@@ -1,14 +1,11 @@
 {
   "name": "techbotwin",
   "version": "1.0.0",
-  "description": "Chatbase TechBot Electron App",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
     "build": "electron-builder"
   },
-  "author": "Your Name",
-  "license": "MIT",
   "devDependencies": {
     "electron": "^37.2.5",
     "electron-builder": "^24.15.2"
