@@ -1,16 +1,24 @@
 {
   "name": "techbotwin",
   "version": "1.0.0",
-  "description": "",
+  "description": "Chatbase TechBot Electron App",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "electron-builder"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Your Name",
+  "license": "MIT",
   "devDependencies": {
-    "electron": "^37.2.5"
+    "electron": "^37.2.5",
+    "electron-builder": "^24.15.2"
+  },
+  "build": {
+    "appId": "com.techbot.app",
+    "productName": "TechBot",
+    "win": {
+      "icon": "icon.ico",
+      "target": "nsis"
+    }
   }
 }
